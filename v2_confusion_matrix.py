@@ -21,7 +21,7 @@ lr.fit(X_train, y_train)
 lr_pred = lr.predict(X_test)
 
 # Model 2: Random Forest (usually better)
-rf = RandomForestClassifier(n_estimators=1000, random_state=42)
+rf = RandomForestClassifier(n_estimators=100, random_state=42)
 rf.fit(X_train, y_train)
 rf_pred = rf.predict(X_test)
 
