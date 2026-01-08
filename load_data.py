@@ -7,6 +7,7 @@ data = load_breast_cancer(as_frame=True)
 X = data.data      # features (30 columns)
 y = data.target    # labels (0=malignant, 1=benign)
 
+# Print dataset overview
 print("=== DATASET OVERVIEW ===")
 print(f"Total samples: {X.shape[0]}")
 print(f"Features: {X.shape[1]}")

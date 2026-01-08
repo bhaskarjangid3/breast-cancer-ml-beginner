@@ -10,6 +10,7 @@ y = data.target        # target (0 = malignant, 1 = benign)
 df = X.copy()
 df["target"] = y
 
+# 3. Basic EDA
 print("=== SHAPE ===")
 print(df.shape)
 
