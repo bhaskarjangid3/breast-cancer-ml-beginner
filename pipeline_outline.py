@@ -26,7 +26,7 @@ print("Model trained!")
 # 4. Predict & evaluate
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
-print(f"\n✅ FINAL ACCURACY: {accuracy:.3f} ({accuracy*100:.1f}%)")
+print(f"\n✅ FINAL ACCURACY: {accuracy*100:.1f}%")
 
 print("\nDetailed report:")
 print(classification_report(y_test, y_pred, target_names=['Malignant', 'Benign']))
